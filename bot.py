@@ -1,10 +1,10 @@
-import discord   # type: ignore
+import discord  
 import datetime
 import time
-from discord.ext import commands    # type: ignore
+from discord.ext import commands    
 from datetime import datetime, timedelta
 from collections import defaultdict, deque
-from discord.ext.commands import Bot # type: ignore
+from discord.ext.commands import Bot 
 
 intents = discord.Intents.all()
 
@@ -306,4 +306,5 @@ async def secret_command(ctx):
 
 
 bot.run('YOUR TOCKEN')
+
 
